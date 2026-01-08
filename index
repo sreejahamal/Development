@@ -1,1 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home Page</title>
+	<link rel="stylesheet" href="..\External CSS\external.css">
+</head>
+<body>	
+<style>
+	.footer-div{
+	background: #F7F9F2;
+	color:green;
+	font-weight:bold;
+	font-size:16px;
+	font-family:Arial;
+	display:flex;
+	flex-direction: column;
+	
+}
 
+</style>	
+	<header>
+		<!-- Navigation part -->
+          	<nav class="navbar" >
+	           <div>
+	            	<!-- Image in Navigation bar -->
+	           	   <img src="..\Assests\EcoMartLogo.png" width="230px" height="auto">
+	           	</div>
+	           	<!-- Navigation Options -->
+	           	<ul class="nav-links">
+	               <li><a href="#" >Blog</a></li>
+	               <li><a href="#">Product</a></li>
+	               <li><a href="#">Research</a></li>
+	               <li><a href="#">About Us</a></li>
+	               <li><a href="#">Contact</a></li>
+                </ul>
+			</nav>
+		</header>
+  <div>
+  	
+  </div>
+   	 
+
+
+
+
+
+<footer>
+  
+  	<section>
+  <div class="footer-div">
+  	<table style="padding:2px 50px 4px 50px;">
+	   <td><img src="..\Assests\EcoMartLogo.png" width="230px" height="auto">
+	   <p >Sustainable living, made simple.</p></td>
+	   	<td><p>All products are eco-certified & responsibly sourced.</p>
+  	<p>&copy 2026 EcoMart. Made with 💚 For the Planet.</p></td>
+  </table>
+</div>
+	</section>
+</footer>
+</body>
+</html>
